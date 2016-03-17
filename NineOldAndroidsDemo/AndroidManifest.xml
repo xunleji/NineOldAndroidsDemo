@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nineoldandroidsdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.Toggles"
+            android:label="Toggles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.VPADemo"
+            android:label="VPADemo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.AnimationCloning"
+            android:label="AnimationCloning" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.AnimationLoading"
+            android:label="AnimationLoading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.AnimationSeeking"
+            android:label="AnimationSeeking" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.AnimatorEvents"
+            android:label="AnimatorEvents" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.BouncingBalls"
+            android:label="BouncingBalls" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.CustomEvaluator"
+            android:label="CustomEvaluator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.MultiPropertyAnimation"
+            android:label="MultiPropertyAnimation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.animation.ReversingAnimation"
+            android:label="ReversingAnimation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.droidflakes.Droidflakes"
+            android:label="Droidflakes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nineoldandroidsdemo.pathanimation.PathAnimationActivity"
+            android:label="PathAnimationActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.jakewharton.nineoldandroids.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
